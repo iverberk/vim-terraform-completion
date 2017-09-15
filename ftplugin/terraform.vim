@@ -41,8 +41,8 @@ endif
 " vim)
 
 augroup TerraformCompleteKeys
-    autocmd FileType terraform noremap <buffer><silent> <C-K> :call terraformcomplete#GetDoc()<CR>
-    autocmd FileType terraform noremap <buffer> <C-L> :call terraformcomplete#JumpRef()<CR>
+    " autocmd FileType terraform noremap <buffer><silent> <C-K> :call terraformcomplete#GetDoc()<CR>
+    " autocmd FileType terraform noremap <buffer> <C-L> :call terraformcomplete#JumpRef()<CR>
     autocmd FileType terraform noremap <buffer><silent> <leader>a :call terraformcomplete#LookupAttr()<CR>
     autocmd FileType terraform noremap <buffer><silent> <leader>o :call terraformcomplete#OpenDoc()<CR>
 augroup END
